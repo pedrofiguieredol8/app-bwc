@@ -41,17 +41,17 @@ class BwcController extends Controller
 
     public function show(string $id)
     {
-        //
+        return abort(400);
     }
 
     public function update(Request $request, string $id)
     {
-        //
+        return abort(400);
     }
 
 
     public function destroy(string $id)
     {
-        //
+        return abort(400);
     }
 }
